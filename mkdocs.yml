@@ -1,0 +1,129 @@
+# Project information
+site_name: Project A
+site_url: https://erickmattoso.github.io/project_a/
+site_author: Ericson Mattoso
+site_description: >-
+  Here we will present a proposal for best practices for the development of data science through research process, techniques for frame the problem, explore the data, perform in-depth analysis and communicate results.
+# Repository
+repo_name: project_a
+repo_url: https://github.com/erickmattoso/project_a
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy;2020 Braskem
+
+# Configuration
+theme:
+  name: null
+  custom_dir: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - tabs
+    #- instant
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: logo
+  favicon: assets/logo.png
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://www.braskem.com.br/
+    - icon: fontawesome/brands/docker
+      link: https://www.braskem.com.br/
+    - icon: fontawesome/brands/twitter
+      link: https://www.braskem.com.br/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.braskem.com.br/
+    - icon: fontawesome/brands/instagram
+      link: https://www.braskem.com.br/
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.highlight:
+  #     linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# # Page tree
+# nav:
+#   - Home: index.md
+#   - Getting started: getting-started.md
+#   - Extensions:
+#     - Admonition: extensions/admonition.md
+#     - CodeHilite: extensions/codehilite.md
+#     - Footnotes: extensions/footnotes.md
+#     - Metadata: extensions/metadata.md
+#     - Permalinks: extensions/permalinks.md
+#     - PyMdown: extensions/pymdown.md
+#   - Plugins:
+#     - Search: plugins/search.md
+#     - Minification: plugins/minification.md
+#     - Revision date: plugins/revision-date.md
+#     - Awesome pages: plugins/awesome-pages.md
+#   - Releases:
+#     - Upgrading to 5.x: releases/5.md
+#     - Upgrading to 4.x: releases/4.md
+#     - Changelog: releases/changelog.md
+#   - Customization: customization.md
+#   - Data privacy: data-privacy.md
+#   - Contributing: contributing.md
+#   - License: license.md
+
+# Google Analytics
+google_analytics:
+  - !!python/object/apply:os.getenv ["UA-166223427-1"]
+  - auto
