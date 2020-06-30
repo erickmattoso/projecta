@@ -1,12 +1,12 @@
 # Project information
 site_name: Project A
-site_url: https://erickmattoso.github.io/project_a/
+site_url: https://erickmattoso.github.io/projecta/
 site_author: Ericson Mattoso
-site_description: >-
-  Here we will present a proposal for best practices for the development of data science through research process, techniques for frame the problem, explore the data, perform in-depth analysis and communicate results.
+site_description: The purpose of the demo project is to leverage the best practices of model development in Data Science community and speed up the developing process for Braskem DS team by demonstrating an array of methods and tools that are widely used in industry.
+
 # Repository
-repo_name: project_a
-repo_url: https://github.com/erickmattoso/project_a
+repo_name: projecta
+repo_url: https://braskem.visualstudio.com/Data%20Science%20Playbook/_git/Project%20A
 edit_uri: ""
 
 # Copyright
@@ -43,9 +43,10 @@ theme:
 # Plugins
 plugins:
   - search
+  # - table-reader
   - minify:
       minify_html: true
-
+  
 # Customization
 extra:
   social:
