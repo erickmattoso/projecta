@@ -1,3 +1,8 @@
+---
+template: overrides/main.html
+title: Research
+---
+
 Microsoft AutoML Documentations:
 
 https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml#preprocess

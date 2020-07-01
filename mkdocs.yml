@@ -29,7 +29,7 @@ theme:
   language: en
   features:
     - tabs
-    #- instant
+    - instant
   palette:
     primary: indigo
     accent: indigo
@@ -43,10 +43,10 @@ theme:
 # Plugins
 plugins:
   - search
-  # - table-reader
+  - mknotebooks
   - minify:
       minify_html: true
-  
+    
 # Customization
 extra:
   social:
@@ -98,31 +98,6 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-
-# # Page tree
-# nav:
-#   - Home: index.md
-#   - Getting started: getting-started.md
-#   - Extensions:
-#     - Admonition: extensions/admonition.md
-#     - CodeHilite: extensions/codehilite.md
-#     - Footnotes: extensions/footnotes.md
-#     - Metadata: extensions/metadata.md
-#     - Permalinks: extensions/permalinks.md
-#     - PyMdown: extensions/pymdown.md
-#   - Plugins:
-#     - Search: plugins/search.md
-#     - Minification: plugins/minification.md
-#     - Revision date: plugins/revision-date.md
-#     - Awesome pages: plugins/awesome-pages.md
-#   - Releases:
-#     - Upgrading to 5.x: releases/5.md
-#     - Upgrading to 4.x: releases/4.md
-#     - Changelog: releases/changelog.md
-#   - Customization: customization.md
-#   - Data privacy: data-privacy.md
-#   - Contributing: contributing.md
-#   - License: license.md
 
 # Google Analytics
 google_analytics:
