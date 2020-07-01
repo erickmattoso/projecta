@@ -1,0 +1,20 @@
+/*.box {
+	min-width: 200px;
+	height: 100px;
+	background-color: red;
+	margin: 1rem;
+}
+.scrolling-wrapper {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+}*/
+.dataframe {
+	min-width: 200px;
+	height: 100px;
+	background-color: red;
+	margin: 1rem;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+}
