@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://erickmattoso.github.io/projecta/</loc>
-     <lastmod>2020-07-01</lastmod>
+     <lastmod>2020-07-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://erickmattoso.github.io/projecta/Documentation/Code%20Documentation/eda/</loc>
-     <lastmod>2020-07-01</lastmod>
+     <loc>https://erickmattoso.github.io/projecta/Documentation/Code%20Documentation/DS%20Best%20Practices%20Demo%20-%20EDA/</loc>
+     <lastmod>2020-07-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://erickmattoso.github.io/projecta/Documentation/Code%20Documentation/Demo%20-%20DS%20Demo%20Project%20-%20Modeling/</loc>
+     <lastmod>2020-07-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/projecta/Documentation/Product%20Documentation/product/</loc>
-     <lastmod>2020-07-01</lastmod>
+     <lastmod>2020-07-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/projecta/Documentation/Research%20Documentation/research/</loc>
-     <lastmod>2020-07-01</lastmod>
+     <lastmod>2020-07-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/projecta/glossary/dictionary/</loc>
-     <lastmod>2020-07-01</lastmod>
+     <lastmod>2020-07-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
