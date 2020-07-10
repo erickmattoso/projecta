@@ -44,8 +44,8 @@ theme:
 plugins:
   - search
   - mknotebooks
-  - minify:
-      minify_html: true
+  # - minify:
+  #     minify_html: true
     
 # Customization
 extra:

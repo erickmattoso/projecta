@@ -1,12 +1,5 @@
-/* Input cells */
-
-/*
-.input code, .input pre {
-    background-color: #3333aa11;
-}*/
-
-/* Output cells */
 .output pre {
-    background-color: #ececec80;
-    padding: 10px;
+    border: 0;
+    overflow-x: auto;
+    font-size: smaller;
 }
